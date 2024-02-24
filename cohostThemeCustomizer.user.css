@@ -427,7 +427,11 @@
         /* edit profile 'buttons' */
         color: var(--color-prose-100);
     }
-
+    
+    .hover\:text-accent:hover {
+        color: var(--color-accent)
+    }
+    
     .hover\:bg-accent:hover {
         background-color: var(--color-accent);
     }
